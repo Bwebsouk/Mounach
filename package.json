@@ -1,9 +1,33 @@
 {
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^10.0.0",
+    "parcel-bundler": "^1.12.5",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "name": "bwebsouk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bwebsouk/Mounach.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bwebsouk/Mounach/issues"
+  },
+  "homepage": "https://github.com/Bwebsouk/Mounach#readme",
+  "description": ""
 }
