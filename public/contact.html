@@ -1,49 +1,75 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - Bwebsouk</title>
   <style>
-    body<nav>
-  <ul>
-    <li><a href="index.html">Accueil</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="mentions.html">Mentions l�gales</a></li>
-    <li><a href="politique.html">Politique de confidentialit�</a></li>
-    <li><a href="cgv.html">CGV</a></li>
-    <li><a href="retours.html">Retours</a></li>
-  </ul>
-</nav> { font-family: Arial, sans-serif; background: #f8f8f8; padding: 20px; }
-    h1 { color: #333; }
-    form { background: white; padding: 20px; border-radius: 8px; max-width: 500px; margin-top: 20px; }
-    input, textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 4px; border: 1px solid #ccc; }
-    button { padding: 10px 15px; background: #333; color: white; border: none; cursor: pointer; }
-    .info { margin-top: 30px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header, footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 0.5em 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      padding: 2em;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 2em;
+    }
+    h1 {
+      color: #444;
+    }
+    .info {
+      margin-bottom: 1em;
+    }
   </style>
 </head>
 <body>
-  <h1>Contactez le service client Bwebsouk</h1>
-
-  <form action="#" method="POST">
-    <label for="name">Nom :</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="email">Email :</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Message :</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-
-    <button type="submit">Envoyer</button>
-  </form>
-
-  <div class="info">
-    <h2>Informations utiles</h2>
-    <p><strong>Email service client :</strong> <a href="mailto:contact@bwebsouk.com">contact@bwebsouk.com</a></p>
-    <p><strong>Ville :</strong> B�ziers</p>
-    <p><strong>Horaires d�ouverture :</strong> 9h � 17h (du lundi au vendredi)</p>
-    <p><strong>Statut juridique :</strong> Entreprise individuelle</p>
+  <header>
+    <h1>Bwebsouk</h1>
+  </header>
+  <nav>
+  <a href="index.html">Accueil</a>
+  <a href="produits.html">Produits</a>
+  <a href="contact.html">Contact</a>
+  <a href="mentions-legales.html">Mentions légales</a>
+  <a href="confidentialite.html">Politique de confidentialité</a>
+  <a href="cgv.html">CGV</a>
+  <a href="retours.html">Retours</a>
+</nav>
+  <div class="container">
+    <h2>Contactez notre service client</h2>
+    <p class="info">Vous pouvez nous écrire à l'adresse suivante :</p>
+    <p><strong>Email :</strong> <a href="mailto:contact@bwebsouk.com">contact@bwebsouk.com</a></p>
+    <p><strong>Adresse :</strong> Béziers</p>
+    <p><strong>Horaires d’ouverture :</strong> 9h à 17h, du lundi au vendredi</p>
   </div>
+  <footer>
+    &copy; 2025 Bwebsouk. Tous droits réservés.
+  </footer>
 </body>
 </html>
