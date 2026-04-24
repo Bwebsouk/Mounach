@@ -9,3 +9,4 @@ backup*/
 *.bak*
 *.map
 *.LICENSE.txt
+.vercel
