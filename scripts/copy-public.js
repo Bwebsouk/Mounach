@@ -1,4 +1,4 @@
-﻿const fs = require("fs");
+const fs = require("fs");
 const path = require("path");
 
 const files = [
@@ -21,5 +21,7 @@ for (const file of files) {
   if (fs.existsSync(src)) {
     fs.copyFileSync(src, dest);
     console.log("copié:", file);
+  } else {
+    console.log("absent:", src);
   }
 }
