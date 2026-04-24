@@ -1,0 +1,11 @@
+﻿node_modules/
+dist/
+public/dist/
+.cache/
+.vercel/
+data/
+sauvegarde/
+backup*/
+*.bak*
+*.map
+*.LICENSE.txt
