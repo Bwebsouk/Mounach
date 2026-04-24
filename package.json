@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && node scripts/copy-public.js",
     "scrape:ae": "node scripts/scraper-aliexpress.js --pages 5",
     "scrape:px": "node scripts/scraper-pixmania.js --pages 5",
     "build-products": "node scripts/build-products.js",
